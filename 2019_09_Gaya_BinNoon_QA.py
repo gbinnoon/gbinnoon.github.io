@@ -49,7 +49,7 @@ read_file.close()
 
 
 ## Actually make the html
-output_file = open("patient_output.html", "w+")
+output_file = open("index.html", "w+")
 output_file.write(html_output)
 
 output_file.close()
